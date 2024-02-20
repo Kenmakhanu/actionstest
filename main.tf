@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-west-2"
 }
-/*
+
 resource "aws_vpc" "actions" {
    cidr_block = "10.0.0.0/24"
 
@@ -12,6 +12,7 @@ resource "aws_vpc" "actions" {
   }
 }
 
+/*
 terraform {
   #required_version = "1.4.5"
   required_providers {
